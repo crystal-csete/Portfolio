@@ -5,6 +5,7 @@ import shopcart from "./images/shopcart.PNG";
 import userpost from "./images/userpost.PNG";
 import githubapi from "./images/githubapi.PNG";
 import nextjs from "./images/nextjs.PNG";
+import tictactoe from "./images/tictactoe.PNG";
 
 function App() {
   return (
@@ -32,11 +33,11 @@ function App() {
         <div className='col-md-4'>
           <div className='thumbnail top'>
             <a href={shopcart} target='_blank' rel='noreferrer'>
-              <img src={shopcart} alt='Shopping website' />
+              <img src={shopcart} alt='Shopping Application' />
               <div className='caption'>
                 <p>
                   <a href='https://shopping-cart-ruby.vercel.app/'>
-                    Shopping Cart website
+                    Shopping Cart Application
                   </a>
                 </p>
               </div>
@@ -46,10 +47,12 @@ function App() {
         <div className='col-md-4'>
           <div className='thumbnail top'>
             <a href={userpost} target='_blank' rel='noreferrer'>
-              <img src={userpost} alt='User Post website' />
+              <img src={userpost} alt='User Post Application' />
               <div className='caption'>
                 <p>
-                  <a href='https://user-post.vercel.app/'>Add Posts website</a>
+                  <a href='https://user-post.vercel.app/'>
+                    Add Posts Application
+                  </a>
                 </p>
               </div>
             </a>
@@ -58,11 +61,11 @@ function App() {
         <div className='col-md-4'>
           <div className='thumbnail top'>
             <a href={githubapi} target='_blank' rel='noreferrer'>
-              <img src={githubapi} alt='Github Api website' />
+              <img src={githubapi} alt='Github Api Application' />
               <div className='caption'>
                 <p>
                   <a href='https://github-api-self.vercel.app/'>
-                    GitHub Api website
+                    GitHub Api Application
                   </a>
                 </p>
               </div>
@@ -72,11 +75,25 @@ function App() {
         <div className='col-md-4'>
           <div className='thumbnail bottom'>
             <a href={nextjs} target='_blank' rel='noreferrer'>
-              <img src={nextjs} alt='Shopping website' />
+              <img src={nextjs} alt='Shopping Application' />
               <div className='caption'>
                 <p>
                   <a href='https://nextjs-blog-xi-red-58.vercel.app/'>
-                    Nextjs Blog website
+                    Nextjs Blog Application
+                  </a>
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div className='col-md-4'>
+          <div className='thumbnail bottom'>
+            <a href={tictactoe} target='_blank' rel='noreferrer'>
+              <img src={tictactoe} alt='Tic Tac Toe Application' />
+              <div className='caption'>
+                <p>
+                  <a href='https://tic-tac-toe-app-eight.vercel.app/'>
+                    Tic Tac Toe Application
                   </a>
                 </p>
               </div>
