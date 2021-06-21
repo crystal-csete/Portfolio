@@ -104,6 +104,7 @@ img:hover {
 nav.navbar.navbar-fixed-bottom {
   border-top: 1px solid #fff;
   padding: 1rem;
+  background-color: rgb(31, 29, 29);
 }
 
 .navbar-nav {
@@ -114,4 +115,16 @@ nav.navbar.navbar-fixed-bottom {
 
 li > a {
   padding: 1rem;
+}
+
+/* Icons styles */
+
+.fa-github-square {
+  font-size: 2rem;
+  color: rgb(46, 48, 180);
+}
+
+.fa-linkedin-square {
+  font-size: 2rem;
+  color: rgb(46, 48, 180);
 }
