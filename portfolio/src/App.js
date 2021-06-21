@@ -36,7 +36,7 @@ function App() {
               <img src={shopcart} alt='Shopping Application' />
               <div className='caption'>
                 <p>
-                  <a href='https://shopping-cart-ruby.vercel.app/'>
+                  <a href='https://shopping-cart-ruby.vercel.app/' target="_blank" rel="noreferrer">
                     Shopping Cart Application
                   </a>
                 </p>
@@ -50,7 +50,7 @@ function App() {
               <img src={userpost} alt='User Post Application' />
               <div className='caption'>
                 <p>
-                  <a href='https://user-post.vercel.app/'>
+                  <a href='https://user-post.vercel.app/' target="_blank" rel="noreferrer">
                     Add Posts Application
                   </a>
                 </p>
@@ -64,7 +64,7 @@ function App() {
               <img src={githubapi} alt='Github Api Application' />
               <div className='caption'>
                 <p>
-                  <a href='https://github-api-self.vercel.app/'>
+                  <a href='https://github-api-self.vercel.app/' target="_blank" rel="noreferrer">
                     GitHub Api Application
                   </a>
                 </p>
@@ -78,7 +78,7 @@ function App() {
               <img src={nextjs} alt='Shopping Application' />
               <div className='caption'>
                 <p>
-                  <a href='https://nextjs-blog-xi-red-58.vercel.app/'>
+                  <a href='https://nextjs-blog-xi-red-58.vercel.app/' target="_blank" rel="noreferrer">
                     Nextjs Blog Application
                   </a>
                 </p>
@@ -92,7 +92,7 @@ function App() {
               <img src={tictactoe} alt='Tic Tac Toe Application' />
               <div className='caption'>
                 <p>
-                  <a href='https://tic-tac-toe-app-eight.vercel.app/'>
+                  <a href='https://tic-tac-toe-app-eight.vercel.app/' target="_blank" rel="noreferrer">
                     Tic Tac Toe Application
                   </a>
                 </p>
