@@ -114,15 +114,15 @@ function App() {
                 href='https://github.com/crystal-csete'
                 target='_blank'
                 rel='noreferrer'>
-                My GitHub
+                <i className="fa fa-github-square"></i>
               </a>
             </li>
             <li>
               <a
-                href='www.linkedin.com/in/crystal-csete'
+                href='https://linkedin.com/in/crystal-csete'
                 target='_blank'
                 rel='noreferrer'>
-                My Linkedin
+                <i className="fa fa-linkedin-square" aria-hidden="true"></i>
               </a>
             </li>
           </ul>
