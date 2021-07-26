@@ -12,99 +12,133 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(245, 239, 239);
+  cursor: default;
+  font-size: 62.5%;
 }
 
 /* COMPONENT: App styles */
 
-.container {
-  background-color: rgb(31, 29, 29);
-  padding-top: 3rem;
+.app__container {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  color: rgb(36, 31, 31);
+  font-size: 1rem;
 }
 
 /* header styles */
-div.jumbotron {
-  padding: 3rem;
-  margin-bottom: 2rem;
-  text-align: center;
-  border-radius: 6px;
+.jumbotron {
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: aliceblue;
+  width: 100%;
+  min-height: 50vh;
   background-image: url("./images/bg.jpg");
+  background-position: left;
   background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
+  border-bottom: 2px solid rgb(53, 47, 47);
 }
 
-/* about me styles */
-.about__text {
-  padding: 26rem 6rem;
-  border-radius: 6px;
-  background-image: url("./images/bgabout.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  color: #fff;
-  font-size: 2rem;
+.jumbotron > p,
+.jumbotron > h1 {
+  margin-left: 1rem;
 }
 
-.about__text > p {
-  background-color: rgba(68, 65, 65, 0.8);
-  border-radius: 6px;
-  padding: 3rem;
-}
+/* mid page styles */
 
+.mid__page {
+  background-image: url("./images/nav.jpg");
+  height: 16rem;
+  color: aliceblue;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* portfolio items */
 
-.top__text {
-  margin-top: 16rem;
-  margin-bottom: 0;
-  padding: 0 10rem;
-  color: #fff;
-  font-size: 1.5rem;
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  height: 100%;
+  object-fit: cover;
+  background-image: url("./images/bgabout.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.top {
-  margin-top: 8rem;
+.projects__bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  height: 100%;
+  object-fit: cover;
+  background-image: url("./images/bgabout.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.bottom {
-  margin-bottom: 8rem;
-  margin-top: 4rem;
-}
-
-div.caption {
-  text-align: center;
-  padding: 0.5rem;
-  border-radius: 6px;
+.card {
   margin: 1rem;
+  width: 30rem;
+  height: 30rem;
+  background-color: rgb(27, 29, 29);
+  color: aliceblue;
+}
+
+img {
+  height: 14rem;
+  object-fit: cover;
 }
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: aliceblue;
 }
 
 a:hover {
   text-decoration: none;
-  color: rgb(156, 153, 153);
+  color: aliceblue;
 }
 
-img {
-  width: 100%;
-  border: 2px solid rgb(110, 100, 100);
+.card-text {
+  height: 6rem;
+}
+
+.even {
+  background-color: rgb(45, 172, 172);
+  padding: 0.5rem;
   border-radius: 6px;
+  outline: none;
+  border: none;
 }
-
-img:hover {
-  width: 100%;
-  border: 2px solid rgb(189, 185, 185);
+.odd {
+  background-color: rgb(57, 94, 43);
+  padding: 0.5rem;
   border-radius: 6px;
+  outline: none;
+  border: none;
 }
 
-/* navbar bottom styles */
+/* COMPONENT: Navigation styles */
+
+.top__nav {
+  background-image: url("./images/nav.jpg");
+  color: aliceblue;
+}
+
+/* COMPONENT: Footer styles */
 
 nav.navbar.navbar-fixed-bottom {
-  border-top: 1px solid #fff;
-  padding: 1rem;
-  background-color: rgb(31, 29, 29);
+  background-image: url("./images/nav.jpg");
+  height: 4rem;
 }
 
 .navbar-nav {
@@ -117,14 +151,18 @@ li > a {
   padding: 1rem;
 }
 
+.navbar-brand {
+  color: aliceblue;
+}
+
 /* Icons styles */
 
 .fa-github-square {
   font-size: 2rem;
-  color: rgb(46, 48, 180);
+  color: rgb(227, 227, 236);
 }
 
 .fa-linkedin-square {
   font-size: 2rem;
-  color: rgb(46, 48, 180);
+  color: rgb(227, 227, 236);
 }
