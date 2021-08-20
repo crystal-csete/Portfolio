@@ -2,6 +2,7 @@
 
 import React from "react";
 import shopcart from "./images/shopcart.PNG";
+import signup from "./images/signup.PNG";
 import userpost from "./images/userpost.PNG";
 import githubapi from "./images/githubapi.PNG";
 import nextjs from "./images/nextjs.PNG";
@@ -29,33 +30,33 @@ function App() {
       </div>
       <div className='projects'>
         <div className='card'>
-          <img src={shopcart} alt='Shopping Application' />
+          <img src={shopcart} alt='Beauty Application' />
           <div className='card-body'>
-            <h5 className='card-title'>Shopping Cart</h5>
-            <h6 className='card-subtitle mb-2 text-muted'>Using Typescript</h6>
-            <p className='card-text'>An example Shopping Cart.</p>
+            <h5 className='card-title'>Beauty Quiz</h5>
+            <h6 className='card-subtitle mb-2 text-muted'>Using Bootstrap</h6>
+            <p className='card-text'>Beauty Quiz and Info Page</p>
             <button className='odd'>
               <a
-                href='https://shopping-cart-ruby.vercel.app/'
+                href='https://beauty-quiz.vercel.app/'
                 target='_blank'
                 rel='noreferrer'>
-                Shopping Cart
+                Beauty Quiz
               </a>
             </button>
           </div>
         </div>
         <div className='card'>
-          <img src={userpost} alt='User Post Application' />
+          <img src={signup} alt='Sign Up Application' />
           <div className='card-body'>
-            <h5 className='card-title'>Add a Post</h5>
-            <h6 className='card-subtitle mb-2 text-muted'>Using Redux</h6>
-            <p className='card-text'>Add, Edit and Delete a Post</p>
+            <h5 className='card-title'>Sign Up</h5>
+            <h6 className='card-subtitle mb-2 text-muted'>Using Bootstrap</h6>
+            <p className='card-text'>Easy Sign Up</p>
             <button className='even'>
               <a
-                href='https://user-post.vercel.app/'
+                href='https://sign-up-application.vercel.app/'
                 target='_blank'
                 rel='noreferrer'>
-                Make a Post
+                Sign Up
               </a>
             </button>
           </div>
