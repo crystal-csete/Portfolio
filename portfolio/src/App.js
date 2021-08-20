@@ -1,8 +1,8 @@
 /** @format */
 
 import React from "react";
-import shopcart from "./images/shopcart.PNG";
 import signup from "./images/signup.PNG";
+import hairlove from "./images/hairlove.PNG";
 import githubapi from "./images/githubapi.PNG";
 import nextjs from "./images/nextjs.PNG";
 import tictactoe from "./images/tictactoe.PNG";
@@ -29,7 +29,7 @@ function App() {
       </div>
       <div className='projects'>
         <div className='card'>
-          <img src={shopcart} alt='Beauty Application' />
+          <img src={hairlove} alt='Beauty Application' />
           <div className='card-body'>
             <h5 className='card-title'>Beauty Quiz</h5>
             <h6 className='card-subtitle mb-2 text-muted'>Using Bootstrap</h6>
