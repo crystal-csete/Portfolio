@@ -3,7 +3,6 @@
 import React from "react";
 import shopcart from "./images/shopcart.PNG";
 import signup from "./images/signup.PNG";
-import userpost from "./images/userpost.PNG";
 import githubapi from "./images/githubapi.PNG";
 import nextjs from "./images/nextjs.PNG";
 import tictactoe from "./images/tictactoe.PNG";
